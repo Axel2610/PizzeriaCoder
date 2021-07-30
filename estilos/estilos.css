@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+}
+
+.header__img--rotate:hover {
+  transform: rotate(360deg);
+  transition: 3s;
+}
+
+/* Inicio */
+h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+  color: wheat;
+}
+
+.datosInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article__h2--fuente {
+  font-family: "Kaushan Script", cursive;
+}
+
+.section__imgpizzeria {
+  border-radius: 5%;
+}
+
+.section__imgpizzeria:hover {
+  border-radius: 5%;
+  transform: scale(1.1);
+  transition: 3s;
+}
+
+.section__imgpizza {
+  border-radius: 5%;
+}
+
+.section__imgpizza:hover {
+  border-radius: 5%;
+  transform: scale(1.1);
+  transition: 3s;
+}
+
+/* finInicio */
+.titulos {
+  text-align: center;
+  font-size: 4rem;
+  color: #d31111;
+}
+
+/* Menu */
+.main__h1--fuente {
+  font-family: "Kaushan Script", cursive;
+}
+
+.divMenu__table--fuente {
+  font-family: "Dancing Script", cursive;
+  font-size: 0.8rem;
+}
+
+.divMenu__alert--fuente {
+  font-family: "Dancing Script", cursive;
+}
+
+.divMenu__h5--font {
+  font-family: "Dancing Script", cursive;
+}
+
+.divMenu__p--font {
+  font-family: "Dancing Script", cursive;
+}
+
+/* finMenu */
+/* Especialidades */
+.divEspecialidades__p--font {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.carousel-inner {
+  border-radius: 10%;
+}
+
+/* finEspecialidades */
+/* Nosotros */
+.divNosotros__p--font {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+}
+
+#videoPizza {
+  margin: auto;
+  margin-bottom: 5rem;
+  display: block;
+  border-radius: 5%;
+}
+
+/* finNosotros */
+/* footer */
+.aFooter {
+  color: wheat;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Kaushan Script", cursive;
+}
+
+.footer__h2--fuente {
+  font-family: "Kaushan Script", cursive;
+}
+
+.aFooter:hover {
+  color: coral;
+}
+
+a.aFooter:active {
+  color: goldenrod;
+}
+
+.footer__listas--type {
+  list-style-type: none;
+}
+
+.footer ul i {
+  padding: 15px;
+}
+
+.ubicacion {
+  color: wheat;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Kaushan Script", cursive;
+}
+
+.ubicacion:hover {
+  color: coral;
+}
+
+.ubicacion:active {
+  color: goldenrod;
+}
+
+.footer__ubicacion--texto {
+  text-align: center;
+}
+
+.footer__iframe--borderRadius {
+  border-radius: 5%;
+}
+
+/* finFooter */
+@media (min-width: 998px) {
+  .divMenu__table--fuente {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+  }
+
+  .divMenu__alert--fuente {
+    font-size: 2rem;
+  }
+
+  .divMenu__h5--font {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+  }
+
+  .divMenu__p--font {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+  }
+
+  .aFooter {
+    color: wheat;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
+  .ubicacion {
+    color: wheat;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .divMenu__table--fuente {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+  }
+
+  .divMenu__alert--fuente {
+    font-size: 1.5rem;
+  }
+
+  .divMenu__h5--font {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+  }
+
+  .divMenu__p--font {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+  }
+
+  .ubicacion {
+    color: wheat;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .aFooter {
+    color: wheat;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=estilos.css.map */

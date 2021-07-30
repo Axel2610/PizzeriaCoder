@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conozca nuestro exquisito menu">
+	<meta name="keywords" content="pizza, pizzeria, napoletana, menu">
+    <title>Menu</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="shortcut icon" href="images/porcion.png" type="image/x-icon">
+    <!-- CDNfontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logopizza.png" alt="logopizza" width="200" height="auto"
+                        class="d-inline-block align-text-center header__img--rotate">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" href="menu.html">Menú</a>
+                        <a class="nav-link" href="especialidades.html">Especialidades</a>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="p-3 bg-dark text-danger">
+            <h1 class="main__h1--fuente titulos">Menú</h1>
+
+            <table class="divMenu__table--fuente table table-warning table-hover table-bordered border-dark">
+                <tr>
+                    <th class="table-active table-danger">Estilo</th>
+                    <th>Tamaño</th>
+                    <th>Descripcion</th>
+                    <th class="table-active table-danger">Valor</th>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Muzzarella</td>
+                    <td>Grande</td>
+                    <td>Salsa de Tomate y Muzzarella</td>
+                    <td class="table-active table-danger">$100</td>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Fugazzetta</td>
+                    <td>Grande</td>
+                    <td>Cebolla y Muzzarella</td>
+                    <td class="table-active table-danger">$110</td>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Especial</td>
+                    <td>Grande</td>
+                    <td>Salsa de Tomate,Muzzarella, Jamon, Morron, Huevo</td>
+                    <td class="table-active table-danger">$150</td>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Margherita</td>
+                    <td>Chica</td>
+                    <td>Salsa de Tomate,Muzzarella,Albahaca</td>
+                    <td class="table-active table-danger">$80</td>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Cuatro Quesos</td>
+                    <td>Chica</td>
+                    <td>Salsa de Tomate,Muzzarella,Queso Azul, Queso Parmesano, Queso Gouda</td>
+                    <td class="table-active table-danger">$140</td>
+                </tr>
+                <tr>
+                    <td class="table-active table-danger">Bianca</td>
+                    <td>Chica</td>
+                    <td>Salsa de Tomate,Anchoas,Queso de Cabra</td>
+                    <td class="table-active table-danger">$120</td>
+                </tr>
+            </table>
+            <div>
+                <ul class="list-group list-group-horizontal divMenu__table--fuente">
+                    <li class="list-group-item list-group-item-danger">Opcionales</li>
+                    <li class="list-group-item list-group-item-warning">Oregano</li>
+                    <li class="list-group-item list-group-item-warning">Aceitunas</li>
+                    <li class="list-group-item list-group-item-warning">Aceite de Oliva</li>
+                </ul>
+            </div>
+            <br>
+            <div class="alert alert-warning divMenu__alert--fuente">
+                <strong>Consulte por variedades especiales del dia</strong>.
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card bg-dark text-light">
+                <img src="images/foto7.jpg" class="card-img-top h-50" alt="pizza1">
+                <div class="card-body">
+                    <h5 class="card-title divMenu__h5--font">De la Casa con Manzanas al Malbec</h5>
+                    <p class="card-text divMenu__p--font"> Variedad de la casa, exquisita combinacion.</p>
+                    <p class="card-text divMenu__p--font"><small class="text-muted">Solo los dias Jueves</small></p>
+                </div>
+            </div>
+            <div class="card bg-dark text-light">
+                <img src="images/foto4-min.jpg" class="card-img-top h-50" alt="pizza2">
+                <div class="card-body">
+                    <h5 class="card-title divMenu__h5--font">Especial con Jamon Iberico</h5>
+                    <p class="card-text divMenu__p--font">Utilizamos el mejor Jamon del Mundo, desde España a tu mesa
+                    </p>
+                    <p class="card-text divMenu__p--font"><small class="text-muted">Solo los dias Sabados</small></p>
+                </div>
+            </div>
+            <div class="card bg-dark text-light">
+                <img src="images/foto6.jpg" class="card-img-top h-50" alt="pizza3">
+                <div class="card-body">
+                    <h5 class="card-title divMenu__h5--font">Espinacas a la Salsa Blanca</h5>
+                    <p class="card-text divMenu__p--font">Una combinacion clasica, que no falla</p>
+                    <p class="card-text divMenu__p--font"><small class="text-muted">Solo dias Martes y Viernes</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="p-3 bg-dark text-danger">
+            <div class="container">
+                <section class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h2 class="footer__h2--fuente">Ubicacion</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.8519657444413!2d-57.53562768506692!3d-38.027230454060444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddca4b49f8c7%3A0xa6c8c09e19ea67ad!2sRP11%205659%2C%20B7602EAF%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625170442597!5m2!1ses-419!2sar"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            class="footer__iframe--borderRadius"></iframe>
+                        <ul class="footer__listas--type">
+                            <li class="footer__ubicacion--texto"><a class="ubicacion"
+                                    href="https://www.google.com/maps/place/RP11+5659,+B7602EAF+Mar+del+Plata,+Provincia+de+Buenos+Aires/@-38.027235,-57.533439,15z/data=!4m5!3m4!1s0x9584ddca4b49f8c7:0xa6c8c09e19ea67ad!8m2!3d-38.0272347!4d-57.533439?hl=es-419"
+                                    target="blank"><i class="fas fa-map-marker-alt"></i>Av.Peralta Ramos 5400</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 offset-md-2 col-md-4 offset-lg-2 col-lg-4 offset-xl-2 col-xl-4">
+                        <h2 class="footer__h2--fuente">Nuestras Redes</h2>
+                        <ul class="footer__listas--type">
+                            <li><a href="https://www.instagram.com/" target="blank" class="aFooter"><i
+                                        class="fab fa-instagram"></i>Instagram</a></li>
+                            <li><a href="https://m.facebook.com/" target="blank" class="aFooter"><i
+                                        class="fab fa-facebook-f"></i>acebook</a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=123456789&text=Hola%21%20Pedido"
+                                    target="blank" class="aFooter"><i class="fab fa-whatsapp"></i>Whatsapp</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
