@@ -80,7 +80,7 @@ p{
 
 .divMenu__table--fuente{
     font-family: 'Dancing Script', cursive;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .divMenu__alert--fuente{
@@ -179,10 +179,8 @@ a.aFooter:active {
 
 
 /* finFooter */
-
 @media (min-width: 998px) {
     .divMenu__table--fuente{
-        font-family: 'Dancing Script', cursive;
         font-size: 2rem;
     }
     .divMenu__alert--fuente{
@@ -190,11 +188,9 @@ a.aFooter:active {
     }
 
     .divMenu__h5--font{
-        font-family: 'Dancing Script', cursive;
         font-size: 2rem;
     }
     .divMenu__p--font{
-        font-family: 'Dancing Script', cursive;
         font-size: 2rem;
     }    
 
@@ -212,18 +208,15 @@ a.aFooter:active {
 
 @media (min-width: 768px) {
     .divMenu__table--fuente{
-        font-family: 'Dancing Script', cursive;
         font-size: 1.5rem;
     }
     .divMenu__alert--fuente{
         font-size: 1.5rem;
     }
     .divMenu__h5--font{
-        font-family: 'Dancing Script', cursive;
         font-size: 1.5rem;
     }
     .divMenu__p--font{
-        font-family: 'Dancing Script', cursive;
         font-size: 1.5rem;
     }
     
